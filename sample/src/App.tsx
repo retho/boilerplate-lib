@@ -1,6 +1,5 @@
-import React, { FC } from "react";
-
-import ExampleComponent from "boilerplate-lib";
+import React, {FC} from 'react';
+import ExampleComponent from 'boilerplate-lib';
 
 const App: FC = () => {
   return (
@@ -8,6 +7,6 @@ const App: FC = () => {
       <ExampleComponent text="Modern React component module" />
     </div>
   );
-}
+};
 
 export default App;
