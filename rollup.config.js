@@ -13,13 +13,13 @@ export default {
   input: "src/index.tsx",
   output: [
     {
-      file: pkg.main,
+      dir: 'dist/cjs',
       format: "cjs",
       exports: "named",
       sourcemap: true,
     },
     {
-      file: pkg.module,
+      dir: 'dist/es',
       format: "es",
       exports: "named",
       sourcemap: true,
