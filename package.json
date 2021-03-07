@@ -1,22 +1,23 @@
 {
-  "name": "example-typescript-react-component-library",
-  "version": "1.0.3",
+  "name": "boilerplate-lib",
+  "version": "0.1.0",
+  "private": true,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
-    "dist"
+    "dist/"
   ],
   "engines": {
     "node": ">=14",
     "npm": ">=6"
   },
   "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c",
     "test": "react-scripts test",
     "coverage": "CI=true npm test -- --coverage",
-    "build": "rollup -c",
-    "start": "rollup -c -w",
     "prepare": "npm run build",
-    "predeploy": "cd example && npm install && npm run build"
+    "predeploy": "cd sample && yarn && npm run build"
   },
   "husky": {
     "hooks": {

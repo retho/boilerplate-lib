@@ -3,3 +3,4 @@ dist/
 
 rollup.config.js
 .eslintrc.js
+.eslintrc.common.js
