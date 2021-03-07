@@ -28,7 +28,8 @@ export default {
   plugins: [
     external(),
     postcss({
-      modules: true,
+      autoModules: true,
+      // extract: 'styles.css',
     }),
     url(),
     svgr(),

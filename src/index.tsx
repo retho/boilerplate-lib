@@ -1,10 +1,9 @@
 import React, {FC} from 'react';
-
-import styles from './styles.css';
+import './styles.scss';
 
 export type ExampleComponentProps = {text: string};
 const ExampleComponent: FC<ExampleComponentProps> = props => {
-  return <div className={styles.test}>Example Component: {props.text}</div>;
+  return <div className="test">Example Component: {props.text}</div>;
 };
 
 export default ExampleComponent;
