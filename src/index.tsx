@@ -15,12 +15,12 @@ const ExampleComponent: FC<ExampleComponentProps> = props => {
     <div>
       <div className="test">Example Component: {props.text}</div>
       <div>
-        dinamic import 1:
+        dinamic import 1:&nbsp;
         {data1 ? JSON.stringify(data1) : <button onClick={handleLoad1}>load data</button>}
       </div>
       <br />
       <div>
-        dinamic import 2:
+        dinamic import 2:&nbsp;
         {data2 ? JSON.stringify(data2) : <button onClick={handleLoad2}>load data</button>}
       </div>
     </div>
