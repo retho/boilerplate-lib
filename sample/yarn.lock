@@ -2931,7 +2931,7 @@ body-parser@1.19.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-"boilerplate-lib@link:..":
+"boilerplate-lib@link:../lib":
   version "0.0.0"
   uid ""
 
@@ -9457,7 +9457,7 @@ react-dev-utils@^11.0.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-"react-dom@link:../node_modules/react-dom":
+"react-dom@link:../lib/node_modules/react-dom":
   version "0.0.0"
   uid ""
 
@@ -9547,7 +9547,7 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
-"react@link:../node_modules/react":
+"react@link:../lib/node_modules/react":
   version "0.0.0"
   uid ""
 

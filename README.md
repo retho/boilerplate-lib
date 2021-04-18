@@ -2,8 +2,12 @@
 # Quickstart
 
 ```sh
+# one console instance
+cd lib
 yarn
-npm run build
+npm start
+
+# another console instance
 cd sample
 yarn
 npm start

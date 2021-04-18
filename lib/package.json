@@ -16,7 +16,6 @@
     "build": "rollup -c",
     "test": "react-scripts test",
     "coverage": "CI=true npm test -- --coverage",
-    "prepare": "npm run build",
     "predeploy": "cd sample && yarn && npm run update && npm run build"
   },
   "husky": {

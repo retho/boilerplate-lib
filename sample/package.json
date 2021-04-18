@@ -12,11 +12,6 @@
     "eslint:strict": "npm run eslint -- --max-warnings=0",
     "pretty": "prettier --write src/**/*.{ts,tsx}"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -39,10 +34,10 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.11",
     "@types/webpack-env": "^1.16.0",
-    "boilerplate-lib": "link:..",
+    "boilerplate-lib": "link:../lib",
     "cross-env": "^7.0.2",
-    "react": "link:../node_modules/react",
-    "react-dom": "link:../node_modules/react-dom",
+    "react": "link:../lib/node_modules/react",
+    "react-dom": "link:../lib/node_modules/react-dom",
     "react-scripts": "4.0.1",
     "typescript": "~4.0.3",
     "web-vitals": "^0.2.4"
